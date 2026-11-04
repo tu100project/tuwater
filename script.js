@@ -245,6 +245,11 @@ const locations = [
             image: drive("https://drive.google.com/file/d/1ARpkL61kn8cLSVDQGvIEughCJIn-HjJs/view?usp=sharing"),
             mapUrl: "https://maps.app.goo.gl/wBKckqLk5osRTuxGA?g_st=ic"
           },
+          {
+            detail: "ตั้งอยู่ใน Thammasat Well Being Centerต",
+            image: drive("https://drive.google.com/file/d/1oyanmjs3BCVySHx8Z4APrqYxrnrU478l/view?usp=drivesdk"),
+            mapUrl: "https://maps.app.goo.gl/aWj6EgXJmnA7EAKC6?g_st=ic"
+          }
         ]
       },
       {
@@ -425,7 +430,7 @@ const locations = [
   //ยิมเนเซียม 4 (GYM 4)
   {
     name: "ยิมเนเซียม 4 (GYM 4)",
-    aliases: ["ยิม", "ยิม 4", "ยิมเนเซียม 4","gym 4"],
+    aliases: ["ยิม", "ยิม 4", "ยิมเนเซียม 4", "gym 4"],
     floors: [
       {
         floor: 1,
@@ -442,7 +447,7 @@ const locations = [
   //ยิมเนเซียม 5 (GYM 5)
   {
     name: "ยิมเนเซียม 5 (GYM 5)",
-    aliases: ["ยิม", "ยิม 5", "ยิมเนเซียม 5","gym 5"],
+    aliases: ["ยิม", "ยิม 5", "ยิมเนเซียม 5", "gym 5"],
     floors: [
       {
         floor: 1,
@@ -456,10 +461,27 @@ const locations = [
       }
     ]
   },
+  //อาคารสำนักงานบริหารทรัพย์สินและกีฬา
+  {
+    name: "อาคารสำนักงานบริหารทรัพย์สินและกีฬา",
+    aliases: ["สำนักงาน", "ทรัพย์สิน", "กีฬา", "สัพสิน"],
+    floors: [
+      {
+        floor: 1,
+        spots: [
+          {
+            detail: "ตั้งอยู่ข้างโซฟา ในห้องรับแขกสำนักงานบริหารทรัพย์สินและกีฬา",
+            image: drive("https://drive.google.com/file/d/1yboZSlHTKkZ2Tjw3cjH7UqA5CUXj_GgP/view?usp=drivesdk"),
+            mapUrl: "https://maps.app.goo.gl/eNpUaS8z4rwv5QQj9?g_st=ic"
+          }
+        ]
+      }
+    ]
+  },
   //ยิมเนเซียม 7 (GYM 7)
   {
     name: "ยิมเนเซียม 7 (GYM 7)",
-    aliases: ["ยิม", "ยิม 7", "ยิมเนเซียม 7","gym 7"],
+    aliases: ["ยิม", "ยิม 7", "ยิมเนเซียม 7", "gym 7"],
     floors: [
       {
         floor: 1,
@@ -468,6 +490,11 @@ const locations = [
             detail: "ให้เดินตรงไปบริเวณที่ดึงข้อแล้วมองไปทางขวาแล้วจะเห็นห้องน้ำให้เดินตรงไปแล้วจะเห็นห้องน้ำรวม (All Gender)  ที่กดน้ำจะอยู่ข้าง ๆ",
             image: drive("https://drive.google.com/file/d/1jCh3xM61MDnqwmLUO0fI9RnaHdeQpyTs/view?usp=drive_link"),
             mapUrl: "https://maps.app.goo.gl/ZiyBtPyoBrFvauY28"
+          },
+          {
+            detail: "ตั้งอยู่ข้างโซฟา ในห้องรับแขกสำนักงานบริหารทรัพย์สินและกีฬา",
+            image: drive("https://drive.google.com/file/d/1yboZSlHTKkZ2Tjw3cjH7UqA5CUXj_GgP/view?usp=drivesdk"),
+            mapUrl: "https://maps.app.goo.gl/eNpUaS8z4rwv5QQj9?g_st=ic"
           }
         ]
       }
@@ -476,7 +503,7 @@ const locations = [
   //อาคารบรรยายรวม 1 (LC.1)
   {
     name: "อาคารบรรยายรวม 1 (LC.1)",
-    aliases: ["บร.","บร", "บร 1", "LC","LC 1","บรรยายเรียนรวม 1"],
+    aliases: ["บร.", "บร", "บร 1", "LC", "LC 1", "บรรยายเรียนรวม 1"],
     floors: [
       {
         floor: 2,
@@ -490,10 +517,27 @@ const locations = [
       }
     ]
   },
+  //อาคารบรรยายรวม 2 (LC.2)
+  {
+    name: "อาคารบรรยายรวม 2 (LC.2)",
+    aliases: ["บร.", "บร", "บร 2", "LC", "LC 2", "บรรยายเรียนรวม 2"],
+    floors: [
+      {
+        floor: 1,
+        spots: [
+          {
+            detail: "หน้าห้องเรียน 116",
+            image: drive("https://drive.google.com/file/d/1ZujxM1lqSkLFIy_OHt1FNrKgnhtAapbj/view?usp=drivesdk"),
+            mapUrl: "https://maps.app.goo.gl/DAvtcY1yM1Zzm1pq5?g_st=ic"
+          }
+        ]
+      }
+    ]
+  },
   //อาคารบรรยายรวม 3 (LC.3)
   {
     name: "อาคารบรรยายรวม 3 (LC.3)",
-    aliases: ["บร.","บร", "บร 3", "LC","LC 3","บรรยายเรียนรวม 3"],
+    aliases: ["บร.", "บร", "บร 3", "LC", "LC 3", "บรรยายเรียนรวม 3"],
     floors: [
       {
         floor: 1,
@@ -510,7 +554,7 @@ const locations = [
   //อาคารบรรยายรวม 4 (LC.4)
   {
     name: "อาคารบรรยายรวม 4 (LC.4)",
-    aliases: ["บร.","บร", "บร 4", "LC","LC 4","บรรยายเรียนรวม 4"],
+    aliases: ["บร.", "บร", "บร 4", "LC", "LC 4", "บรรยายเรียนรวม 4"],
     floors: [
       {
         floor: 1,
@@ -525,6 +569,99 @@ const locations = [
             image: drive("https://drive.google.com/file/d/1PMA8rMVDyrkinnUf3PGMaO3CRrc0EO9V/view?usp=drive_link"),
             mapUrl: "https://maps.app.goo.gl/aFNWbR5UKwEy65iv5"
           }
+        ]
+      }
+    ]
+  },
+  //อาคารบรรยายรวม 5 (LC.5)
+  {
+    name: "อาคารบรรยายรวม 5 (LC.5)",
+    aliases: ["บร.", "บร", "บร 5", "LC", "LC 5", "บรรยายเรียนรวม 5"],
+    floors: [
+      {
+        floor: 1,
+        spots: [
+          {
+            detail: "บริเวณหน้าศูนย์บริการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี",
+            image: drive("https://drive.google.com/file/d/1Upz-WnrVemPNBTWvxo75DdxNMcAvasI3/view?usp=drivesdk"),
+            mapUrl: "https://maps.app.goo.gl/tBJx8u1Q3AtnndBX8?g_st=ic"
+          },
+          {
+            detail: "บริเวณหน้าทางขึ้นบันไดหลัก บริเวณหน้าห้องประชุม 5",
+            image: drive("https://drive.google.com/file/d/1Xlx13JPdLIbqdLoB-E32iAhXf7TRHRZE/view?usp=drivesdk"),
+            mapUrl: "https://maps.app.goo.gl/aWj6EgXJmnA7EAKC6?g_st=ic"
+          }
+        ]
+      }
+    ]
+  },
+  //อาคารเดือน บุนนาค คณะเศรษฐศาสตร์
+  {
+    name: "อาคารเดือน บุนนาค คณะเศรษฐศาสตร์",
+    aliases: ["เดือน", "บุนนาค", "คณะเศรษฐศาสตร์", "อาคารเดือน บุนนาค คณะเศรษฐศาสตร์"],
+    floors: [
+      {
+        floor: 1,
+        spots: [
+          {
+            detail: "บริเวณหน้าทางขึ้นบันไดฝั่งซ้าย",
+            image: drive("https://drive.google.com/file/d/1ej0-Vjdbm3tYyYRwactIXQFDowj3nZWu/view?usp=drivesdk"),
+            mapUrl: "https://maps.app.goo.gl/DnT3PG42neyL49Ro8?g_st=ic"
+          }
+        ]
+      },
+      {
+        floor: 2,
+        spots: [
+          {
+            detail: "บริเวณขวามือหลังขึ้นบันไดทางฝั่งขวา",
+            image: drive("https://drive.google.com/file/d/1bLW1psHksg30-y5G0ESP0H0Erh9lPHZy/view?usp=drivesdk"),
+            mapUrl: "https://maps.app.goo.gl/9kG3ro4UUPxEp9JJ9?g_st=ic"
+          }
+        ]
+      }
+    ]
+  },
+  //คณะเศรษฐศาสตร์ ECON
+  {
+    name: "คณะเศรษฐศาสตร์ (ECON)",
+    aliases: ["ECON", "คณะเศรษฐศาสตร์", "เสดสาด"],
+    floors: [
+      {
+        floor: 1,
+        spots: [
+          {
+            detail: "บริเณหน้า Common Room Y คณะเศรษศาสตร์",
+            image: drive("https://drive.google.com/file/d/169obCEKxAs4PsNrUQrv8U0L2Uceg6L28/view?usp=drivesdk"),
+            mapUrl: "https://maps.app.goo.gl/zzzu75Fdn9SdUKyk6?g_st=ic"
+          }
+        ]
+      },
+      {
+        floor: 2,
+        spots: [
+          {
+            detail: "บริเวณห้อง บรรยาย 231",
+            image: drive("https://drive.google.com/file/d/1Z3WkwFxWeAvfh7o-Gk0g6UXVR0iCTrzn/view?usp=drivesdk"),
+            mapUrl: "https://maps.app.goo.gl/eNpUaS8z4rwv5QQj9?g_st=ic"
+          }
+        ]
+      }
+    ]
+  },
+  //อาคารเรียนและปฏิบัติการรวม (อาคารปิยชาติ)
+  {
+    name: "อาคารเรียนและปฏิบัติการรวม (อาคารปิยชาติ)",
+    aliases: ["ปิย", "อาคารเรียนและปฏิบัติการรวม", "อาคารปิยชาติ"],
+    floors: [
+      {
+        floor: 1,
+        spots: [
+          {
+            detail: "บริเวณหน้าห้องคณะกรรมการนักศึกษา คณะสหเวช",
+            image: drive("https://drive.google.com/file/d/1dH55IYDB6Fnh46teRyBOf51r3nb43Rx9/view?usp=drivesdk"),
+            mapUrl: "https://maps.app.goo.gl/oGgZxoA5iyySo35w9?g_st=ic"
+          },
         ]
       }
     ]
